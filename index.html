@@ -8,6 +8,34 @@
     </title>
 </head>
 <body>
-    
+    <section class="input">
+        <h1>Input</h1>
+        <form action="">
+            <div>
+                <h2>Choose Number of Dice</h2>
+                <input type="radio" id="oneDice" value="One" name="numberDice">
+                <label for="oneDice">One</label>
+                <input type="radio" id="twoDice" value="Two" name="numberDice">
+                <label for="twoDice">Two</label>
+            </div>
+            <div>
+                <h2>Choose Desired Number</h2>
+                <select name="desiredNum" id="desiredNum">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </select>
+            </div>
+            <input class="input" id="numRolls" type="number" min="1" value="1">
+            <input class="input" type="submit">
+        </form>
+    </section>
+    <section class="result">
+        <h1>Result</h1>
+        <p>The probability of obtaining this number is:</p>
+    </section>
 </body>
 </html>
